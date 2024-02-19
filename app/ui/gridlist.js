@@ -38,11 +38,11 @@ export default function GridList() {
 
     return (
         <section className="relative">
-            <div className="container mx-auto py-6 max-w-7xl">
-                <p className="text-lg font-semibold text-gray-800 mb-4">OpenAI Sora Videos & Prompts</p>
+            <div className="container mx-auto py-6 w-screen max-w-[1500px] px-6 xl:px-20">
+                <h1 className="text-lg font-semibold text-gray-800 mb-4">OpenAI Sora Videos & Prompts</h1>
                 <InfiniteScroll
                     dataLength={items.length}
-                    next={() => fetchMoreData()} // 作为函数调用，以避免直接在JSX中引用异步函数
+                    next={() => fetchMoreData()}
                     hasMore={hasMore}
                     loader={<h4>Loading...</h4>}
                 >

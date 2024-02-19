@@ -8,7 +8,7 @@ import logo from "@/app/icon.png";
 const Footer = () => {
   return (
     <footer className="bg-base-200 border-t border-base-content/10">
-      <div className="max-w-7xl mx-auto px-8 py-24">
+      <div className="w-screen max-w-[1500px] px-6 xl:px-20 mx-auto px-8 py-24">
         <div className=" flex lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col">
           <div className="w-64 flex-shrink-0 md:mx-0 mx-auto text-center md:text-left">
             <Link
@@ -25,12 +25,12 @@ const Footer = () => {
                 height={24}
               />
               <strong className="font-extrabold tracking-tight text-base md:text-lg">
-                SoraVid
+                Sora Vid
               </strong>
             </Link>
 
             <p className="mt-3 text-sm text-base-content/80">
-              xxxx
+              Explore Globally with OpenAI Sora's Videos & Prompts.
             </p>
             <p className="mt-3 text-sm text-base-content/60">
               Copyright © {new Date().getFullYear()} - All rights reserved
@@ -43,12 +43,8 @@ const Footer = () => {
               </div>
 
               <div className="flex flex-col justify-center items-center md:items-start gap-2 mb-10 text-sm">
-            
-                <Link href="/#pricing" className="link link-hover">
-                  Pricing
-                </Link>
                 <a href="/#" target="_blank" className="link link-hover">
-                  Affiliates
+                  About Us
                 </a>
               </div>
             </div>
