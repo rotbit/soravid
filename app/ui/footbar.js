@@ -30,7 +30,7 @@ const Footer = () => {
             </Link>
 
             <p className="mt-3 text-sm text-base-content/80">
-              Explore Globally with OpenAI Sora's Videos & Prompts.
+              Explore Globally with OpenAI Sora&apos;s Videos & Prompts.
             </p>
             <p className="mt-3 text-sm text-base-content/60">
               Copyright © {new Date().getFullYear()} - All rights reserved
