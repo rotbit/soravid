@@ -22,7 +22,8 @@ export default function GridList() {
             const data = await response.json();
             setItems(prevItems => [...prevItems, ...data.data]);
             setHasMore(data.current_page < data.last_page);
-            setNextPageURL(data.next_page_url);
+            const nextUrl = data.next_page_url.replace("http", "https");
+            setNextPageURL(nextUrl);
         } catch (error) {
             console.error('An error has occurred: ', error);
         } finally {
@@ -33,7 +34,6 @@ export default function GridList() {
     useEffect(() => {
         const apiURL = "https://api.collectui.com/sora/list";
         fetchData(apiURL);
-        console.log("call useEffect");
     }, []);
 
     return (
