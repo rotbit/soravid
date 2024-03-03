@@ -15,7 +15,7 @@ export default function Hero () {
           <h2 className="font-serif text-center text-sm text-orange-400 uppercase tracking-widest mt-3">Updated daily.</h2>
         
           <div className="mx-auto flex justify-center">
-            <button className="mt-6 border-2 bg-white px-7 rounded-2xl p-2 text-black hover:border-2 hover:border-orange-400">Generate Video</button>
+            <button className="mt-6 border-2 bg-green-500 px-7 border-green-500 rounded-lg p-2 text-white hover:border-2 hover:border-green-800">Generate Video</button>
           </div>
           <svg
             viewBox="0 0 1024 1024"
