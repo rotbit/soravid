@@ -7,7 +7,7 @@ export default function GridItem({ item }) {
           <video src={item.video_url} autoPlay muted loop controls/>
         </div>
         <div>
-          <h6 className="px-2 font-semibold text-gray-700">Prompt</h6>
+          <span className="px-2 font-semibold text-gray-700">Prompt</span>
           <p className="p-4 mb-4 text-sm text-[#636262]">
             {item.prompt}</p>
         </div>
