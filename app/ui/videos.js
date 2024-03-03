@@ -18,13 +18,13 @@ export default async function Videos() {
                 <h1 className="text-blue-500 text-center text-2xl">What is Sora?</h1>
                 <hr className="divide-x-0 border mt-2"/>
                 <div className="px-20 font-mono pt-5">
-                    <p>OpenAI's Sora model is an advanced AI designed to convert text into video.</p>
+                    <p>OpenAI&apos;s Sora model is an advanced AI designed to convert text into video.</p>
                     <br/>
                     <p>It generates realistic and imaginative scenes based on text descriptions, creating multiple characters and accurately simulating specific motions and scene details. </p>
                     <br/>
                     <p>Impressive in language understanding and video production, Sora offers creative professionals a new tool for innovation. </p>
                     <br/>
-                    <p>For more detailed information, visit OpenAI's official website <a className="text-blue-500" href="https://openai.com/sora">https://openai.com/sora.</a></p>
+                    <p>For more detailed information, visit OpenAI&apos;s official website <a className="text-blue-500" href="https://openai.com/sora">https://openai.com/sora.</a></p>
                 </div>
             </div>
 
@@ -32,13 +32,13 @@ export default async function Videos() {
                 <h1 className="text-blue-500 text-center text-2xl">How to access Sora?</h1>
                 <hr className="divide-x-0 border mt-2"/>
                 <div className="px-20 font-mono pt-5">
-                <p>Currently, OpenAI's Sora model is not publicly accessible.</p>
+                <p>Currently, OpenAI&apos;s Sora model is not publicly accessible.</p>
                 <br></br>
                 <p>However, you can interact with it by posting a video prompt (text description) in the comments on Sam Altman's Twitter account.</p>
                 <br></br>           
                 <p>Sam Altman, the CEO of OpenAI, may use the Sora model to create a video based on your prompt and share it.</p>
                 <br></br>
-                <p>This is a unique way to see Sora in action, even though it's not yet available for general use.</p>
+                <p>This is a unique way to see Sora in action, even though it&apos;s not yet available for general use.</p>
                 <br></br>
                 <p>For updates and more information, you can follow Sam Altman on Twitter.</p>
                 </div>
