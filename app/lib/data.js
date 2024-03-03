@@ -11,16 +11,21 @@ export async function fetchCategories() {
     return rsp.data;
 }
 
-export const fetchGPTsInfo = cache(async (id) => {
-    const { data, error } = await supabase
-    .from('gpts_info')
-    .select('id, app_name, description, app_url, app_logo, author, update_at, category')
-    .order('update_at', { ascending: false })
-    .eq('id', id)
-    if (error) {
-        console.log(error) 
-        return []
+export const fetchVideos = cache(async () => {
+    try {
+        const apiURL = "https://api.collectui.com/sora/list";
+        const rsp = await fetch(apiURL); // 使用 await 等待 fetch 操作完成
+        if (!rsp.ok) {
+            throw new Error('Network response was not ok');
+        }
+        const data = await rsp.json(); // 解析 JSON 响应体
+        return data.data; // 返回解析后的数据
+    } catch (error) {
+        console.error("Failed to fetch videos:", error);
+        // 处理错误或返回错误信息
+        return null; // 或者根据实际情况返回一个错误信息或默认值
     }
-    return data[0];
-})
+}
+
+)
 

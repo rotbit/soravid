@@ -39,7 +39,7 @@ export default function GridList() {
     return (
         <section className="relative">
             <div className="container mx-auto py-6 w-screen max-w-[1500px] px-6 xl:px-20">
-                <h1 className="text-lg font-semibold text-gray-800 mb-4">OpenAI Sora Videos & Prompts</h1>
+                <h1 className="text-lg font-semibold text-white mb-4">OpenAI Sora Videos & Prompts</h1>
                 <InfiniteScroll
                     dataLength={items.length}
                     next={() => fetchMoreData()}

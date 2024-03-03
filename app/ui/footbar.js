@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
-import logo from "@/app/icon.png";
+import logo from "@/app/logo.png";
 
 // Add the Footer to the bottom of your landing page and more.
 // The support link is connected to the config.js file. If there's no config.mailgun.supportEmail, the link won't be displayed.
@@ -16,33 +16,25 @@ const Footer = () => {
               aria-current="page"
               className="flex gap-2 justify-center md:justify-start items-center"
             >
-              <Image
-                src={logo}
-                alt={` logo`}
-                priority={true}
-                className="w-6 h-6"
-                width={24}
-                height={24}
-              />
-              <strong className="font-extrabold tracking-tight text-base md:text-lg">
-                Sora Vid
+              <strong className="font-serif text-white font-extrabold tracking-tight text-base md:text-lg">
+                Sora <span className="text-orange-500">Vid</span>
               </strong>
             </Link>
 
-            <p className="mt-3 text-sm text-base-content/80">
+            <p className="text-gray-400 mt-3 text-sm text-base-content/80">
               Explore Globally with OpenAI Sora&apos;s Videos & Prompts.
             </p>
-            <p className="mt-3 text-sm text-base-content/60">
+            <p className="text-gray-400 mt-3 text-sm text-base-content/60">
               Copyright © {new Date().getFullYear()} - All rights reserved
             </p>
           </div>
           <div className="flex-grow flex flex-wrap justify-center -mb-10 md:mt-0 mt-10 text-center">
             <div className="lg:w-1/3 md:w-1/2 w-full px-4">
-              <div className="footer-title font-semibold text-base-content tracking-widest text-sm md:text-left mb-3">
+              <div className="text-white footer-title font-semibold text-base-content tracking-widest text-sm md:text-left mb-3">
                 LINKS
               </div>
 
-              <div className="flex flex-col justify-center items-center md:items-start gap-2 mb-10 text-sm">
+              <div className="text-gray-400 flex flex-col justify-center items-center md:items-start gap-2 mb-10 text-sm">
                 <a href="/#" target="_blank" className="link link-hover">
                   About Us
                 </a>
@@ -50,11 +42,11 @@ const Footer = () => {
             </div>
 
             <div className="lg:w-1/3 md:w-1/2 w-full px-4">
-              <div className="footer-title font-semibold text-base-content tracking-widest text-sm md:text-left mb-3">
+              <div className="text-white footer-title font-semibold text-base-content tracking-widest text-sm md:text-left mb-3">
                 LEGAL
               </div>
 
-              <div className="flex flex-col justify-center items-center md:items-start gap-2 mb-10 text-sm">
+              <div className="text-gray-400 flex flex-col justify-center items-center md:items-start gap-2 mb-10 text-sm">
                 <Link href="/tos" className="link link-hover">
                   Terms of services
                 </Link>
