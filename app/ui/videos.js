@@ -34,7 +34,7 @@ export default async function Videos() {
                 <div className="px-20 font-mono pt-5">
                 <p>Currently, OpenAI&apos;s Sora model is not publicly accessible.</p>
                 <br></br>
-                <p>However, you can interact with it by posting a video prompt (text description) in the comments on Sam Altman's Twitter account.</p>
+                <p>However, you can interact with it by posting a video prompt (text description) in the comments on Sam Altman&apos;s Twitter account.</p>
                 <br></br>           
                 <p>Sam Altman, the CEO of OpenAI, may use the Sora model to create a video based on your prompt and share it.</p>
                 <br></br>
