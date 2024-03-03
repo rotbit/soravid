@@ -64,7 +64,7 @@ Sora uses the transformer architecture to handle how frames relate to one anothe
                 <ul>
                     <li>1、Log in to your OpenAI account and locate the Sora interface.</li>
                     <li>2、Enter your text description in the designated area, which can be a story outline, scene description, or specific action instructions.</li>
-                    <li>3、Click the generate button, and OpenAI Sora will create a 60-second video based on the entered text prompts."</li>
+                    <li>3、Click the generate button, and OpenAI Sora will create a 60-second video based on the entered text prompts.</li>
                 </ul>
                 </div>
             </div>
@@ -75,7 +75,7 @@ Sora uses the transformer architecture to handle how frames relate to one anothe
                 <ul>
                     <li>1、Film and Video Production: Sora can significantly improve the efficiency of video production, saving on labor and time costs. Producers only need to provide a text description to generate exquisite 60-second videos, eliminating the cumbersome shooting and post-production process.</li>
                     <li>2、Advertising and Marketing: Advertisers can use Sora to quickly generate a variety of advertising videos, attracting consumer attention, enhancing brand image, and boosting sales.</li>
-                    <li>3、Education and Training: Teachers can utilize Sora to create engaging and interesting educational videos, increasing student interest and participation."</li>
+                    <li>3、Education and Training: Teachers can utilize Sora to create engaging and interesting educational videos, increasing student interest and participation.</li>
                     <li>4、Virtual Reality: Combining Sora with virtual reality technology can create a more realistic and immersive virtual world.</li>
                 </ul>
                 </div>
