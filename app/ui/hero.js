@@ -6,11 +6,11 @@ export default function Hero () {
     return (
         <div className="mx-auto mt-4 max-w-full sm:mt-4 sm:px-0 lg:px-0">
         <div className="relative isolate overflow-hidden px-6 py-12 shadow-2xl sm:rounded-3xl sm:px-24 xl:pt-24">
-          <h1 className="font-serif mx-auto max-w-7xl text-center text-3xl text-orange-400	font-bold tracking-tight text-primary sm:text-6xl">
+          <h1 className="font-serif mx-auto max-w-7xl text-center text-8xl text-orange-400	font-bold tracking-tight text-primary sm:text-6xl">
             Create Video From Text
           </h1>
           <h2 className="font-serif mx-auto mt-6 max-w-7xl text-center text-xl leading-8 text-orange-400">
-            Discover OpenAI Sora Videos and Explore Engaging Prompts.
+            Discover OpenAI Sora Videos and Generate Video From Text.
           </h2>
           <h2 className="font-serif text-center text-sm text-orange-400 uppercase tracking-widest mt-3">Updated daily.</h2>
         
